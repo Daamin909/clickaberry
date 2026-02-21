@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://xsr8re7jq7sx"
-path="res://.godot/imported/Fences.png-0c3ef26c1f0673c08d718b5397533830.ctex"
+uid="uid://cx607wws3am2v"
+path="res://.godot/imported/greenStrawberry.png-dd326559e6ea6121c4d27590d1fee59c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Tilesets/Fences.png"
-dest_files=["res://.godot/imported/Fences.png-0c3ef26c1f0673c08d718b5397533830.ctex"]
+source_file="res://assets/Objects/greenStrawberry.png"
+dest_files=["res://.godot/imported/greenStrawberry.png-dd326559e6ea6121c4d27590d1fee59c.ctex"]
 
 [params]
 

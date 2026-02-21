@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://xsr8re7jq7sx"
-path="res://.godot/imported/Fences.png-0c3ef26c1f0673c08d718b5397533830.ctex"
+uid="uid://y2ocaaamvifd"
+path="res://.godot/imported/Simple_Milk_and_grass_item.png-c94ed42018f3fdb5f45b90f31ac09683.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Tilesets/Fences.png"
-dest_files=["res://.godot/imported/Fences.png-0c3ef26c1f0673c08d718b5397533830.ctex"]
+source_file="res://assets/Objects/Simple_Milk_and_grass_item.png"
+dest_files=["res://.godot/imported/Simple_Milk_and_grass_item.png-c94ed42018f3fdb5f45b90f31ac09683.ctex"]
 
 [params]
 

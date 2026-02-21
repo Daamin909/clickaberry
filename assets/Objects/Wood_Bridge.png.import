@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://xsr8re7jq7sx"
-path="res://.godot/imported/Fences.png-0c3ef26c1f0673c08d718b5397533830.ctex"
+uid="uid://bc5q80vvs4oll"
+path="res://.godot/imported/Wood_Bridge.png-36e342dc6462cd883b05e8679305a49a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Tilesets/Fences.png"
-dest_files=["res://.godot/imported/Fences.png-0c3ef26c1f0673c08d718b5397533830.ctex"]
+source_file="res://assets/Objects/Wood_Bridge.png"
+dest_files=["res://.godot/imported/Wood_Bridge.png-36e342dc6462cd883b05e8679305a49a.ctex"]
 
 [params]
 
