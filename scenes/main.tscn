@@ -1,11 +1,11 @@
-[gd_scene load_steps=6 format=3 uid="uid://8uux7hmsxxjw"]
+[gd_scene load_steps=7 format=3 uid="uid://8uux7hmsxxjw"]
 
 [ext_resource type="Script" uid="uid://bwehxc32od42q" path="res://scripts/main.gd" id="1_o5qli"]
 [ext_resource type="Texture2D" uid="uid://b5ci6c4n35mfs" path="res://assets/Ui/keypad.png" id="2_0wfyh"]
 [ext_resource type="Texture2D" uid="uid://cx607wws3am2v" path="res://assets/Objects/greenStrawberry.png" id="3_sugp2"]
+[ext_resource type="Texture2D" uid="uid://cfgpg7u803ogm" path="res://assets/Objects/green_blank.png" id="3_tefeu"]
 [ext_resource type="Texture2D" uid="uid://dwi56eytgesb2" path="res://assets/Objects/greenFlower.png" id="4_jyhfs"]
-
-[sub_resource type="CanvasTexture" id="CanvasTexture_sgp6g"]
+[ext_resource type="Texture2D" uid="uid://dsioklri8lia4" path="res://assets/Objects/green_blank_large.png" id="6_o6xl0"]
 
 [node name="Main" type="Node2D"]
 script = ExtResource("1_o5qli")
@@ -30,33 +30,34 @@ texture = ExtResource("2_0wfyh")
 [node name="things" type="Node2D" parent="."]
 
 [node name="one" type="TextureRect" parent="things"]
-offset_left = 76.0
-offset_top = -60.0
-offset_right = 116.0
-offset_bottom = -20.0
-texture = SubResource("CanvasTexture_sgp6g")
+offset_left = 75.0
+offset_top = -62.0
+offset_right = 134.0
+offset_bottom = -4.0
+scale = Vector2(0.72, 0.72)
+texture = ExtResource("3_tefeu")
 
 [node name="two" type="TextureRect" parent="things"]
 offset_left = 120.0
 offset_top = -60.999996
-offset_right = 178.0
-offset_bottom = -5.999996
+offset_right = 180.0
+offset_bottom = -0.9999962
 scale = Vector2(0.72, 0.72)
 texture = ExtResource("3_sugp2")
 
 [node name="three" type="TextureRect" parent="things"]
-offset_left = 166.00002
+offset_left = 166.0
 offset_top = -62.0
-offset_right = 224.00002
+offset_right = 226.0
 offset_bottom = -2.0
 scale = Vector2(0.7, 0.7)
 texture = ExtResource("4_jyhfs")
 
 [node name="four" type="TextureRect" parent="things"]
-offset_left = 212.0
-offset_top = -60.0
-offset_right = 252.0
-offset_bottom = -20.0
+offset_left = 209.99998
+offset_top = -62.999996
+offset_right = 270.0
+offset_bottom = -2.9999962
 scale = Vector2(0.72, 0.72)
 texture = ExtResource("3_sugp2")
 
@@ -69,49 +70,49 @@ scale = Vector2(0.72, 0.72)
 texture = ExtResource("3_sugp2")
 
 [node name="six" type="TextureRect" parent="things"]
-offset_left = 121.0
+offset_left = 120.0
 offset_top = -19.0
-offset_right = 179.0
+offset_right = 180.0
 offset_bottom = 41.0
 scale = Vector2(0.7, 0.7)
 texture = ExtResource("4_jyhfs")
 
 [node name="seven" type="TextureRect" parent="things"]
-offset_left = 166.0
-offset_top = -17.0
-offset_right = 206.0
-offset_bottom = 23.0
+offset_left = 165.0
+offset_top = -21.0
+offset_right = 225.0
+offset_bottom = 39.0
 scale = Vector2(0.72, 0.72)
 texture = ExtResource("3_sugp2")
 
 [node name="eight" type="TextureRect" parent="things"]
-offset_left = 212.0
-offset_top = -19.0
+offset_left = 210.0
+offset_top = -20.0
 offset_right = 270.0
-offset_bottom = 41.0
+offset_bottom = 40.0
 scale = Vector2(0.7, 0.7)
 texture = ExtResource("4_jyhfs")
 
 [node name="nine" type="TextureRect" parent="things"]
 offset_left = 75.0
-offset_top = 25.0
-offset_right = 115.0
-offset_bottom = 65.0
+offset_top = 24.0
+offset_right = 135.0
+offset_bottom = 84.0
 scale = Vector2(0.7, 0.7)
 texture = ExtResource("4_jyhfs")
 
 [node name="ten" type="TextureRect" parent="things"]
-offset_left = 121.0
-offset_top = 26.0
-offset_right = 161.0
-offset_bottom = 66.0
+offset_left = 120.0
+offset_top = 24.000002
+offset_right = 180.0
+offset_bottom = 84.0
 scale = Vector2(0.7, 0.7)
 texture = ExtResource("3_sugp2")
 
 [node name="eleven" type="TextureRect" parent="things"]
 offset_left = 166.0
 offset_top = 24.0
-offset_right = 224.0
+offset_right = 226.0
 offset_bottom = 84.0
 scale = Vector2(0.7, 0.7)
 texture = ExtResource("4_jyhfs")
@@ -133,39 +134,42 @@ scale = Vector2(0.72, 0.72)
 texture = ExtResource("3_sugp2")
 
 [node name="fourteen" type="TextureRect" parent="things"]
-offset_left = 121.0
-offset_top = 68.00001
-offset_right = 179.0
-offset_bottom = 128.0
+offset_left = 120.0
+offset_top = 67.0
+offset_right = 180.0
+offset_bottom = 127.0
 scale = Vector2(0.7, 0.7)
 texture = ExtResource("4_jyhfs")
 
 [node name="fifteen" type="TextureRect" parent="things"]
-offset_left = 166.0
-offset_top = 69.0
-offset_right = 206.0
-offset_bottom = 109.0
+offset_left = 165.0
+offset_top = 66.0
+offset_right = 225.0
+offset_bottom = 126.0
 scale = Vector2(0.72, 0.72)
 texture = ExtResource("3_sugp2")
 
 [node name="sixteen" type="TextureRect" parent="things"]
-offset_left = 213.0
-offset_top = 68.0
-offset_right = 251.0
-offset_bottom = 149.0
-texture = SubResource("CanvasTexture_sgp6g")
+offset_left = 254.0
+offset_top = 66.0
+offset_right = 374.0
+offset_bottom = 125.99999
+rotation = 1.5707964
+scale = Vector2(0.7, 0.7)
+texture = ExtResource("6_o6xl0")
 
 [node name="seventeen" type="TextureRect" parent="things"]
-offset_left = 77.0
-offset_top = 113.0
-offset_right = 161.0
-offset_bottom = 149.0
-texture = SubResource("CanvasTexture_sgp6g")
+offset_left = 75.0
+offset_top = 111.0
+offset_right = 195.0
+offset_bottom = 171.0
+scale = Vector2(0.74, 0.74)
+texture = ExtResource("6_o6xl0")
 
 [node name="eighteen" type="TextureRect" parent="things"]
 offset_left = 166.0
 offset_top = 109.99999
-offset_right = 224.0
+offset_right = 226.0
 offset_bottom = 170.0
 scale = Vector2(0.7, 0.7)
 texture = ExtResource("4_jyhfs")
