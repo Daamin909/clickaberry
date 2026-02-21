@@ -1,126 +1,138 @@
 [gd_scene load_steps=3 format=3 uid="uid://8uux7hmsxxjw"]
 
-[ext_resource type="Script" uid="uid://bwehxc32od42q" path="res://scripts/detect_keypress.gd" id="1_o5qli"]
+[ext_resource type="Script" uid="uid://bwehxc32od42q" path="res://scripts/main.gd" id="1_o5qli"]
 
 [sub_resource type="CanvasTexture" id="CanvasTexture_sgp6g"]
 
 [node name="Main" type="Node2D"]
 script = ExtResource("1_o5qli")
 
-[node name="one" type="TextureRect" parent="."]
+[node name="ColorRect" type="ColorRect" parent="."]
+z_index = -1
+offset_left = -662.0
+offset_top = -397.0
+offset_right = 637.0
+offset_bottom = 376.0
+color = Color(0.36862746, 0.1764706, 0.15686275, 1)
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="Things" type="Node2D" parent="."]
+
+[node name="one" type="TextureRect" parent="Things"]
 offset_right = 40.0
 offset_bottom = 40.0
 texture = SubResource("CanvasTexture_sgp6g")
 
-[node name="two" type="TextureRect" parent="."]
+[node name="two" type="TextureRect" parent="Things"]
 offset_left = 53.0
 offset_right = 93.0
 offset_bottom = 40.0
 texture = SubResource("CanvasTexture_sgp6g")
 
-[node name="three" type="TextureRect" parent="."]
+[node name="three" type="TextureRect" parent="Things"]
 offset_left = 106.0
 offset_right = 146.0
 offset_bottom = 40.0
 texture = SubResource("CanvasTexture_sgp6g")
 
-[node name="four" type="TextureRect" parent="."]
+[node name="four" type="TextureRect" parent="Things"]
 offset_left = 158.0
 offset_right = 198.0
 offset_bottom = 40.0
 texture = SubResource("CanvasTexture_sgp6g")
 
-[node name="five" type="TextureRect" parent="."]
+[node name="five" type="TextureRect" parent="Things"]
 offset_top = 54.0
 offset_right = 40.0
 offset_bottom = 94.0
 texture = SubResource("CanvasTexture_sgp6g")
 
-[node name="six" type="TextureRect" parent="."]
+[node name="six" type="TextureRect" parent="Things"]
 offset_left = 53.0
 offset_top = 54.0
 offset_right = 93.0
 offset_bottom = 94.0
 texture = SubResource("CanvasTexture_sgp6g")
 
-[node name="seven" type="TextureRect" parent="."]
+[node name="seven" type="TextureRect" parent="Things"]
 offset_left = 106.0
 offset_top = 54.0
 offset_right = 146.0
 offset_bottom = 94.0
 texture = SubResource("CanvasTexture_sgp6g")
 
-[node name="eight" type="TextureRect" parent="."]
+[node name="eight" type="TextureRect" parent="Things"]
 offset_left = 158.0
 offset_top = 54.0
 offset_right = 198.0
 offset_bottom = 94.0
 texture = SubResource("CanvasTexture_sgp6g")
 
-[node name="nine" type="TextureRect" parent="."]
+[node name="nine" type="TextureRect" parent="Things"]
 offset_left = 1.0
 offset_top = 111.0
 offset_right = 41.0
 offset_bottom = 151.0
 texture = SubResource("CanvasTexture_sgp6g")
 
-[node name="ten" type="TextureRect" parent="."]
+[node name="ten" type="TextureRect" parent="Things"]
 offset_left = 54.0
 offset_top = 111.0
 offset_right = 94.0
 offset_bottom = 151.0
 texture = SubResource("CanvasTexture_sgp6g")
 
-[node name="eleven" type="TextureRect" parent="."]
+[node name="eleven" type="TextureRect" parent="Things"]
 offset_left = 107.0
 offset_top = 111.0
 offset_right = 147.0
 offset_bottom = 151.0
 texture = SubResource("CanvasTexture_sgp6g")
 
-[node name="twelve" type="TextureRect" parent="."]
+[node name="twelve" type="TextureRect" parent="Things"]
 offset_left = 159.0
 offset_top = 111.0
 offset_right = 199.0
 offset_bottom = 151.0
 texture = SubResource("CanvasTexture_sgp6g")
 
-[node name="thirteen" type="TextureRect" parent="."]
+[node name="thirteen" type="TextureRect" parent="Things"]
 offset_left = 1.0
 offset_top = 165.0
 offset_right = 41.0
 offset_bottom = 205.0
 texture = SubResource("CanvasTexture_sgp6g")
 
-[node name="fourteen" type="TextureRect" parent="."]
+[node name="fourteen" type="TextureRect" parent="Things"]
 offset_left = 54.0
 offset_top = 165.0
 offset_right = 94.0
 offset_bottom = 205.0
 texture = SubResource("CanvasTexture_sgp6g")
 
-[node name="fifteen" type="TextureRect" parent="."]
+[node name="fifteen" type="TextureRect" parent="Things"]
 offset_left = 107.0
 offset_top = 165.0
 offset_right = 147.0
 offset_bottom = 205.0
 texture = SubResource("CanvasTexture_sgp6g")
 
-[node name="sixteen" type="TextureRect" parent="."]
+[node name="sixteen" type="TextureRect" parent="Things"]
 offset_left = 159.0
 offset_top = 165.0
 offset_right = 199.0
 offset_bottom = 261.0
 texture = SubResource("CanvasTexture_sgp6g")
 
-[node name="seventeen" type="TextureRect" parent="."]
+[node name="seventeen" type="TextureRect" parent="Things"]
 offset_left = 1.0
 offset_top = 221.0
 offset_right = 94.0
 offset_bottom = 261.0
 texture = SubResource("CanvasTexture_sgp6g")
 
-[node name="eighteen" type="TextureRect" parent="."]
+[node name="eighteen" type="TextureRect" parent="Things"]
 offset_left = 107.0
 offset_top = 221.0
 offset_right = 147.0

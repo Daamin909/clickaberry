@@ -1,5 +1,5 @@
 extends Node
-
+	
 ## The currently active scene
 var current_scene: Node = null
 
