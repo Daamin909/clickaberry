@@ -1,0 +1,128 @@
+[gd_scene load_steps=3 format=3 uid="uid://8uux7hmsxxjw"]
+
+[ext_resource type="Script" uid="uid://bwehxc32od42q" path="res://scripts/detect_keypress.gd" id="1_o5qli"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_sgp6g"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_o5qli")
+
+[node name="one" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = SubResource("CanvasTexture_sgp6g")
+
+[node name="two" type="TextureRect" parent="."]
+offset_left = 53.0
+offset_right = 93.0
+offset_bottom = 40.0
+texture = SubResource("CanvasTexture_sgp6g")
+
+[node name="three" type="TextureRect" parent="."]
+offset_left = 106.0
+offset_right = 146.0
+offset_bottom = 40.0
+texture = SubResource("CanvasTexture_sgp6g")
+
+[node name="four" type="TextureRect" parent="."]
+offset_left = 158.0
+offset_right = 198.0
+offset_bottom = 40.0
+texture = SubResource("CanvasTexture_sgp6g")
+
+[node name="five" type="TextureRect" parent="."]
+offset_top = 54.0
+offset_right = 40.0
+offset_bottom = 94.0
+texture = SubResource("CanvasTexture_sgp6g")
+
+[node name="six" type="TextureRect" parent="."]
+offset_left = 53.0
+offset_top = 54.0
+offset_right = 93.0
+offset_bottom = 94.0
+texture = SubResource("CanvasTexture_sgp6g")
+
+[node name="seven" type="TextureRect" parent="."]
+offset_left = 106.0
+offset_top = 54.0
+offset_right = 146.0
+offset_bottom = 94.0
+texture = SubResource("CanvasTexture_sgp6g")
+
+[node name="eight" type="TextureRect" parent="."]
+offset_left = 158.0
+offset_top = 54.0
+offset_right = 198.0
+offset_bottom = 94.0
+texture = SubResource("CanvasTexture_sgp6g")
+
+[node name="nine" type="TextureRect" parent="."]
+offset_left = 1.0
+offset_top = 111.0
+offset_right = 41.0
+offset_bottom = 151.0
+texture = SubResource("CanvasTexture_sgp6g")
+
+[node name="ten" type="TextureRect" parent="."]
+offset_left = 54.0
+offset_top = 111.0
+offset_right = 94.0
+offset_bottom = 151.0
+texture = SubResource("CanvasTexture_sgp6g")
+
+[node name="eleven" type="TextureRect" parent="."]
+offset_left = 107.0
+offset_top = 111.0
+offset_right = 147.0
+offset_bottom = 151.0
+texture = SubResource("CanvasTexture_sgp6g")
+
+[node name="twelve" type="TextureRect" parent="."]
+offset_left = 159.0
+offset_top = 111.0
+offset_right = 199.0
+offset_bottom = 151.0
+texture = SubResource("CanvasTexture_sgp6g")
+
+[node name="thirteen" type="TextureRect" parent="."]
+offset_left = 1.0
+offset_top = 165.0
+offset_right = 41.0
+offset_bottom = 205.0
+texture = SubResource("CanvasTexture_sgp6g")
+
+[node name="fourteen" type="TextureRect" parent="."]
+offset_left = 54.0
+offset_top = 165.0
+offset_right = 94.0
+offset_bottom = 205.0
+texture = SubResource("CanvasTexture_sgp6g")
+
+[node name="fifteen" type="TextureRect" parent="."]
+offset_left = 107.0
+offset_top = 165.0
+offset_right = 147.0
+offset_bottom = 205.0
+texture = SubResource("CanvasTexture_sgp6g")
+
+[node name="sixteen" type="TextureRect" parent="."]
+offset_left = 159.0
+offset_top = 165.0
+offset_right = 199.0
+offset_bottom = 261.0
+texture = SubResource("CanvasTexture_sgp6g")
+
+[node name="seventeen" type="TextureRect" parent="."]
+offset_left = 1.0
+offset_top = 221.0
+offset_right = 94.0
+offset_bottom = 261.0
+texture = SubResource("CanvasTexture_sgp6g")
+
+[node name="eighteen" type="TextureRect" parent="."]
+offset_left = 107.0
+offset_top = 221.0
+offset_right = 147.0
+offset_bottom = 261.0
+texture = SubResource("CanvasTexture_sgp6g")
