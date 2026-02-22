@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cuoji7uaol1vh"
+path="res://.godot/imported/high_lvl-Do Not Wake the Nestle King - Lumina City.wav-e1868e05e1194f7aa9df815cb87b2c17.sample"
+
+[deps]
+
+source_file="res://assets/music/high_lvl-Do Not Wake the Nestle King - Lumina City.wav"
+dest_files=["res://.godot/imported/high_lvl-Do Not Wake the Nestle King - Lumina City.wav-e1868e05e1194f7aa9df815cb87b2c17.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2
