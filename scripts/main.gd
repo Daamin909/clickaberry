@@ -15,7 +15,9 @@ var score_label: Label
 var error_sound: AudioStreamPlayer
 var camera: Camera2D
 var camera_original_position: Vector2
-var score := 0  
+var score := 0
+var notes_spawned := 0
+var base_speed := 250.0  
 
 var patterns = [
 	{ "key": "one" },
@@ -102,10 +104,15 @@ func spawn_note(key):
 	var x = key_node.global_position.x
 	var target_y = key_node.global_position.y
 	
+	# Calculate exponential speed increase
+	var current_speed = base_speed * pow(1.0353, notes_spawned)
+	notes_spawned += 1
+	
 	add_child(note)
 	note.global_position = Vector2(x, -250)
 	note.target_y = target_y
 	note.key = key
+	note.speed = current_speed
 	
 	active_notes[key].append(note)
 	update_hint_label()
