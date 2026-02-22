@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://8uux7hmsxxjw"]
+[gd_scene load_steps=10 format=3 uid="uid://8uux7hmsxxjw"]
 
 [ext_resource type="Script" uid="uid://bwehxc32od42q" path="res://scripts/main.gd" id="1_o5qli"]
 [ext_resource type="Texture2D" uid="uid://b5ci6c4n35mfs" path="res://assets/Ui/keypad.png" id="2_0wfyh"]
@@ -6,6 +6,8 @@
 [ext_resource type="Texture2D" uid="uid://cfgpg7u803ogm" path="res://assets/Objects/green_blank.png" id="3_tefeu"]
 [ext_resource type="Texture2D" uid="uid://dwi56eytgesb2" path="res://assets/Objects/greenFlower.png" id="4_jyhfs"]
 [ext_resource type="Texture2D" uid="uid://dsioklri8lia4" path="res://assets/Objects/green_blank_large.png" id="6_o6xl0"]
+[ext_resource type="Texture2D" uid="uid://du5dg6oft3ll8" path="res://assets/Ui/music_off.png" id="7_tipki"]
+[ext_resource type="Texture2D" uid="uid://cj7ty5gal8v2n" path="res://assets/Ui/title.png" id="8_85g3d"]
 
 [sub_resource type="Curve" id="Curve_tefeu"]
 
@@ -203,3 +205,13 @@ default_color = Color(0.64030194, 0, 0.377017, 1)
 position = Vector2(-92, 82)
 width_curve = SubResource("Curve_tefeu")
 default_color = Color(0.64030194, 0, 0.377017, 1)
+
+[node name="MusicOff" type="Sprite2D" parent="."]
+position = Vector2(-288, 152)
+scale = Vector2(0.7, 0.7)
+texture = ExtResource("7_tipki")
+
+[node name="Title" type="Sprite2D" parent="."]
+position = Vector2(-284, -181)
+scale = Vector2(0.3, 0.3)
+texture = ExtResource("8_85g3d")
