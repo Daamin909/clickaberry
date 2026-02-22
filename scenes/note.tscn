@@ -1,8 +1,11 @@
-[gd_scene load_steps=2 format=3 uid="uid://cgy12qtces4oo"]
+[gd_scene load_steps=3 format=3 uid="uid://cgy12qtces4oo"]
 
+[ext_resource type="Texture2D" uid="uid://cpxl8glkbw5at" path="res://assets/Objects/flower.png" id="1_1bnk6"]
 [ext_resource type="Script" uid="uid://ba10awrs7ht33" path="res://scripts/note.gd" id="1_t3yvt"]
 
-[node name="ColorRect" type="ColorRect"]
-offset_right = 40.0
-offset_bottom = 40.0
+[node name="TextureRect" type="TextureRect"]
+anchors_preset = -1
+offset_right = 42.0
+offset_bottom = 42.0
+texture = ExtResource("1_1bnk6")
 script = ExtResource("1_t3yvt")

@@ -69,6 +69,15 @@ func handle_input(key):
 	for note in get_children():
 		if note.has_method("try_hit"):
 			if note.try_hit(key):
-				return  #
+				flash_key(key)  # 👈 ADD THIS
+				return
 	
 	print("MISS (no valid note):", key)
+func flash_key(key):
+	var ting = get_node_or_null("things/" + key)
+	if ting:
+		ting.modulate.a = 0.0  # hide
+		
+		await get_tree().create_timer(0.1).timeout  # 0.1 sec flash
+		
+		ting.modulate.a = 1.0  # show again

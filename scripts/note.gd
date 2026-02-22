@@ -1,4 +1,4 @@
-extends ColorRect
+extends TextureRect
 
 var speed := 400.0
 var target_y := 800.0
@@ -11,8 +11,9 @@ var printed := false
 func _process(delta):
 	global_position.y += speed * delta
 
-	var dist = abs(global_position.y - target_y)
+	var OFFSET := -480.0  # tweak this number
 
+	var dist = abs((global_position.y + OFFSET) - target_y)
 	if key == "nine" and dist <= hit_window and not printed:
 		print("NINE NOTE AT:", global_position)
 		printed = true
